@@ -1,0 +1,136 @@
+.images {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.summary.entry-summary {
+    width: 50%;
+    float: left;
+}
+.images img {
+    border: 1px solid #f0f0f3;
+    padding: 1px;
+}
+.images .thumbnails.columns-5 img {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.images .thumbnails.columns-5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#tab-reviews {
+    margin-top: 100px;
+    border-top: 1px solid #eee;
+    padding-top: 37px;
+}
+
+h1.title.product_title.entry-title.title-single {
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 33px;
+}
+.product_meta {
+    margin-top: 15px;
+    padding-top: 55px;
+    border-top: 1px solid #EDEDED;
+}
+form.cart {
+    margin-bottom: 0px!important;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+button.single_add_to_cart_button.button.alt {
+    background: #ff6434!important;
+    border-bottom: 2px solid #dc501e!important;
+    border-radius: 0px;
+    padding: 9px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font: 400 15px/13px 'UtmAvo', sans-serif;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+
+.quantity {
+    float: left;
+}
+.elife-product-detail {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.info {
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 23px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    /* border: 1px solid #f66712; */
+    margin-bottom: 20px;
+}
+.info p {
+    font-size: 13px;
+    color: #616161;
+}
+
+p.price {
+    font-size: 20px!important;
+    font-family: Roboto;
+    color: #ed6c11;
+    font-weight: bold;
+    padding: 5px;
+}
+
+p.ster {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #c53622;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+}
+
+span.posted_in {
+    display: block;
+    padding: 10px;
+    background: #FBFBFB;
+    border: 1px solid #EDEDED;
+    font-family: Roboto;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+input.input-text.qty.text {width: 75px;}
+.social-product {
+	display: none;
+}
+td.label {
+    font-size: 15px;
+}
+
+select#pa_size {
+    height: 30px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+span.sku_wrapper {
+    display: block;
+    padding: 10px;
+    background: #FBFBFB;
+    border: 1px solid #EDEDED;
+    font-family: Roboto;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-top: 51px;
+}

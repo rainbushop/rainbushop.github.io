@@ -1,9 +1,6 @@
 $(document).ready(function() {
+
 	//set thoi gian cho no chay
-	$('.elife-inline-block').click(function(event) {
-		/* Act on the event */
-		console.log("abc");
-	});
 	thoigian = setInterval(function(){
 		var sau = $('.active').next();
 		var vitri = $('.xanh').index()+1;

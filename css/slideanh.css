@@ -66,7 +66,7 @@ ul.dot {
 
 .slideanh {
     width: 100%;
-    height: 520px;
+    height: 720px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -75,7 +75,7 @@ ul.dot {
 
 .header-slide {
     width: 100%;
-    height: 550px;
+    height: 750px;
     position: relative;
     z-index: 100;
 }
@@ -86,7 +86,7 @@ ul.dot {
 }
 
 .diquatrai{
-  animation:diquatrai 1s forwards;
+  animation:diquatrai 0.5s forwards;
 }
 @-webkit-keyframes diquatrai {
   0%{
@@ -103,7 +103,7 @@ ul.dot {
 }
 
 .divaotrai{
-  animation:divaotrai 1s forwards;
+  animation:divaotrai 0.5s forwards;
 }
 @-webkit-keyframes divaotrai {
   0%{
@@ -120,7 +120,7 @@ ul.dot {
 }
 
 .diquaphai{
-  animation: diquaphai 1s forwards;
+  animation: diquaphai 0.5s forwards;
 }
 @-webkit-keyframes diquaphai {
   0%{
@@ -136,7 +136,7 @@ ul.dot {
 }
 
 .divaophai{
-  animation:divaophai 1s forwards;
+  animation:divaophai 0.5s forwards;
 }
 @-webkit-keyframes divaophai {
   0%{

@@ -1,0 +1,321 @@
+
+<!-- saved from url=(0041)http://192.168.64.3/WebRB/one_product.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./RainbuShop_files/all.css">
+<link rel="stylesheet" href="./RainbuShop_files/product.css">
+<link rel="stylesheet" href="./RainbuShop_files/style.css">
+<script src="./RainbuShop_files/jquery-1.11.3.min.js" type="text/javascript"></script>
+<style>
+	.one-product
+{
+	width: 100%;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+	.picture-product-one{
+		width:50%;
+		min-height:400px;
+		position: relative;
+		float:left;
+		overflow: hidden;
+	}
+	.information-product{
+		width: 40%;
+		min-height:400px;
+		float:left;
+		margin-top:40px;
+		margin-left:45px;
+	}
+	.one-product-wrapper{
+		width:80%;
+		margin:0 auto;
+		
+	}
+	.image-product-small{
+		width: 90px;
+		min-height:80px;
+		cursor: pointer;
+		float:left;
+		margin:5px;
+		backface-visibility: hidden;
+		background-image: linear-gradient(to bottom right, rgba(255,255,255,0.25), rgba(64,64,64,0.1));
+	}
+	.do{
+		border: 1px solid #ff5501;
+	}
+	.image-product{
+
+		max-width: 100%;
+   		
+	}
+	.arrow-left{
+		position:absolute;
+		top:0;
+		width:80px;
+		background-image: linear-gradient(to bottom right, rgba(255,255,255,0.25), rgba(64,64,64,0.1));
+		height: 82.2%;
+		transform:translateX(-90px);
+		transition:0.4s;
+	}
+	.arrow-right{
+		position:absolute;
+		top:0;
+		right:0;
+		width:80px;
+		height: 82.2%;
+		transform:translateX(90px);
+		transition: 0.4s;
+	background-image: linear-gradient(to bottom right, rgba(255,255,255,0.25), rgba(64,64,64,0.1));
+
+	}
+	.image-product:hover .arrow-left{
+		    transform: translateX(0px);
+	}
+	.image-product:hover .arrow-right{
+		    transform: translateX(0px);
+	}
+	.page-title-wrapper h1{
+		margin-bottom: 5px;
+    	font-family: Vitesse;
+    	font-size: 2vw;
+    	line-height: 2.3vw;
+    	color: #333333;
+    	margin-bottom: 10px
+	}
+	.product-attribute-brand{
+		font-size:20px;
+	}
+	.price-box .price{
+	font-size: 16px;
+    line-height: 36px;
+	}
+	.price-box{
+		margin-bottom: 10px;
+	}
+	.attribute-detail-top {
+    display: inline;
+    font-size: 16px;
+    list-style: none;
+    padding: 0;
+}
+.size-product select{
+    border: 2px solid #000;
+    font-size: 14px;
+    height: 38px;
+    width: 125px;
+    float:left;
+    margin:28px 20px 0 0;
+}
+.quantity-product input.input-quantity{
+	border: 2px solid #000;
+    height: 38px;
+    width:125px;
+    border-radius: 6px;
+    margin:28px 0 0 0;
+  	 padding: 0  49px;
+    color:black;
+}
+.box-tocart{
+	margin:24px 0;
+}
+</style>
+<script>
+	$(document).ready(function() {
+
+		$('.image-product-small').click(function(event) {
+			$('.image-product-small').removeClass('do');
+			$(this).toggleClass('do');
+
+		});
+	});
+</script>
+
+		
+
+
+	
+	<title>RainbuShop</title>
+	
+	<link rel="stylesheet" type="text/css" href="./RainbuShop_files/all.css">
+	<link rel="stylesheet" href="./RainbuShop_files/style.css">
+	<script src="./RainbuShop_files/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(window).bind("orientationchange", ScaleSlider);
+        });
+    </script>
+</head>
+<body id="layout_home">
+	<div id="sb-site" class="sb-site-container">
+		<header id="elife-header" style="position: relative; top: 0px;">
+			<div class="elife-page-wrapper full-width">
+				<div class="row font-roboto">
+					<div class="header-left elife-left hs1">Everyday 9:00 am -  10 am | Hotline: 0908 938 341</div>
+					<div class="cart-info header-right elife-right hs1">
+						<a class="head-status-cart" href="http://192.168.64.3/WebRB/one_product.php#">
+							My cart 
+						</a>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+		</header>
+		<div id="elife-navigation">
+			<div class="elife-page-wrapper full-width">
+				<div id="elife-logo" class="menu-left">
+					<a class="elife-inline-block" href="http://192.168.64.3/WebRB/one_product.php#">
+						<img width="66" height="59" src="./RainbuShop_files/logo.png" alt="logo">
+					</a>
+				</div>
+				<div id="elife-menu" class="menu-center">
+					<div class="elife-text-center">
+						<ul>
+							<li>
+								<a class="activebar" href="http://192.168.64.3/WebRB/index.php">Home</a>
+							</li>
+							<li>
+								<a sitemapid="222" href="http://192.168.64.3/WebRB/About.php">About us</a>
+							</li>
+							<li>
+								<a sitemapid="224" href="http://192.168.64.3/WebRB/product.php">Product</a>
+							</li>
+							<li>
+								<a sitemapid="225" href="http://192.168.64.3/WebRB/one_product.php#">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="search-section menu-right">
+					<div class="search-form ">
+						<form action="http://192.168.64.3/WebRB/search.html" method="get">
+							<div class="search-form-input elife-right font-roboto hs1">
+								<input id="advancesearch-key" class="form-control advancesearch-key" name="key" maxlength="30" placeholder="search">
+							</div>
+							<div class="search-form-submit elife-left">
+								<input class="advancesearch-button" type="submit" value="  ">
+							</div>
+							<div class="clearer"></div>
+						</form>
+					</div>
+					<div class="clearer"></div>
+				</div>
+				<div class="clearer"></div>
+			</div>
+		</div>		<!-- mainpic -->
+	
+		<!-- end_mainpic -->
+		<!-- product -->
+		<div class="one-product">
+			<div class="one-product-wrapper">
+				<!-- pictrai -->
+			<div class="picture-product-one">
+			
+				<div class="image-product">
+					<div class="arrow-left"></div>
+					<a href="http://192.168.64.3/WebRB/one_product.php"><img src="./RainbuShop_files/864501-497-a.png" alt=""></a>
+					<div class="arrow-right"></div>
+				</div>
+				
+				<div class="image-product-small">
+					<img src="./RainbuShop_files/864501-497-a(1).png" alt="">
+				</div>
+				<div class="image-product-small">
+					
+					<img src="./RainbuShop_files/864501-497-a(1).png" alt="">
+				</div>
+			</div>
+			<!-- end pictrai -->
+			<!-- information -->
+			<div class="information-product">
+				<div class="page-title-wrapper">
+					<h1>Nike NBA Icon Edition Swingman Jersey - Joel Embiid Philadelphia 76ers</h1>
+				</div>
+				<div class="product-attribute-brand">
+					Nike NBA
+				</div>
+				<div class="price-box">
+					<span class="price">3,900.000VND</span>
+				</div>
+				<div class="detail-product">
+					<ul class="attribute-detail-top">
+						<li><span>Based on the authentic NBA jersey, the Icon Edition Swingman (Philadelphia 76ers) Men's Nike NBA Connected Jersey lets you rep your team while helping keep you cool and comfortable through every move.</span></li>
+					</ul>
+				</div>
+				<!-- size -->
+				<div class="size-product">
+					<select name="" id="">
+						<option value="">Size</option>
+						<option value="">S</option>
+						<option value="">M</option>
+						<option value="">L</option>
+						<option value="">XL</option>
+					</select>
+				</div>
+				<!-- end_size -->
+				<div class="quantity-product">
+					<input type="number" class="input-quantity" min="1" maxlength="12" placeholder="SL">
+				</div>
+				<!-- soluong -->
+				<div style="clear:both"></div>
+				<div class="box-tocart">
+					<button type="submit">
+						<img src="./RainbuShop_files/add-to-cart.png" alt="">
+					</button>
+				</div>
+				<!-- end_soluong -->
+			</div>
+			<!-- end_information -->
+			</div>
+		</div>
+		<!-- end product -->
+		<div style="clear:both;"></div>
+		<hr>
+		<div>
+			<ul>
+				<li></li>
+			</ul>
+		</div>
+		<div style="clear:both;"></div>
+		<link rel="stylesheet" href="./RainbuShop_files/slideanh.css">
+<script src="./RainbuShop_files/slideanh.js"></script>
+
+<!-- footer -->
+	<footer>
+		<div class="mainfooter">
+			<div class="rainbu-footer">
+				<div class="rainbu-footer-wrapper font-family-base">
+					<div class="rain-footer-text-containt">
+						<ul class="rainbu-text-column">
+							<li class="rainbu-text-title brighter-text"><a href="http://192.168.64.3/WebRB/one_product.php">FIND OUR STORE</a></li>
+							<li class="rainbu-text-title brighter-text"><a href="http://192.168.64.3/WebRB/one_product.php">BECOME A MEMBER</a></li>
+							<li class="rainbu-text-title brighter-text"><a href="http://192.168.64.3/WebRB/one_product.php">SITE FEEDBACK</a></li>
+						</ul>
+						<ul class="rainbu-text-column">
+							<li class="rainbu-text-title brighter-text"><a href="http://192.168.64.3/WebRB/one_product.php">GET HELP</a></li>
+							<li class="rainbu-text-title2"><a href="http://192.168.64.3/WebRB/one_product.php">phone</a></li>
+							<li class="rainbu-text-title2"><a href="http://192.168.64.3/WebRB/one_product.php">adress</a></li>
+						</ul>
+						<ul class="rainbu-text-column">
+							<li class="rainbu-text-title brighter-text"><a href="http://192.168.64.3/WebRB/one_product.php">ABOUT RAINBU</a></li>
+							<li class="rainbu-text-title2"><a href="http://192.168.64.3/WebRB/one_product.php">News</a></li>
+						</ul>
+						<ul class="rainbu-social-column">
+						<li class="rainbu-social-container">
+							<span class="rainbu-social-wrapper">
+								<a href="http://192.168.64.3/WebRB/one_product.php#" target="_blank"><img src="./RainbuShop_files/fa.png" alt=""></a>
+							</span>
+							<span class="rainbu-social-wrapper">
+								<a href="http://192.168.64.3/WebRB/one_product.php#" target="_blank"><img src="./RainbuShop_files/insta.png" "="" alt=""></a>
+							</span>
+						</li>
+					</ul>
+					</div>
+					
+					<ul class="rainbu-text-column2">
+							<li class=""><a href="http://192.168.64.3/WebRB/one_product.php">ABOUT RAINBU</a></li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- 	end footer --></div><div id="eJOY__extension_root" style="all: unset;"></div></body></html>

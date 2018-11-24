@@ -1,0 +1,13 @@
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/fancybox_sprite.png
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/fancybox_loading.gif
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/fancybox_blank.gif
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/fancybox_overlay.png
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/loading.gif
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/photoswipe-default-skin.png
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/photoswipe-default-skin.svg
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/photoswipe-preloader.gif
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/ajax-loader.gif
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/sprite.png
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/sprite.png
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/sprite.png
+http://www.sendoushop.com/fileserver/smartweb_sendou/default/image/sprite.png
