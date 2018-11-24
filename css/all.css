@@ -1,40 +1,31 @@
 @font-face {
-font-family:Futura;
-src:url(‘../fonts/tff/FuturaStd-Medium.ttf’) format(‘truetype’),
-url(‘../fonts/eot/FuturaStd-Medium.eot#iefix’) format(’embedded-opentype’),
-url(‘../fonts/woff/FuturaStd-Medium.woff’) format(‘woff’);
-font-weight:normal;
- font-style:normal;
+    font-family: "vitesse-bold";
+    src: url(../font/Vitesse-Bold.otf) format("truetype");
 }
 @font-face {
-font-family:Vitesse-Bold;
-src:url(‘../fonts/tff/Vitesse-Bold.ttf’) format(‘truetype’),
-url(‘../fonts/eot/Vitesse-Bold.eot#iefix’) format(’embedded-opentype’),
-url(‘../fonts/woff/Vitesse-Bold.woff’) format(‘woff’);
+font-family:Futura;
+src:url(‘../fonts/FuturaStd-Medium.otf’) format(‘truetype’),
 font-weight:normal;
  font-style:normal;
 }
 @font-face {
 font-family:Vitesse-Light;
-src:url(‘../fonts/tff/Vitesse-Light.ttf’) format(‘truetype’),
-url(‘../fonts/eot/Vitesse-Light.eot#iefix’) format(’embedded-opentype’),
-url(‘../fonts/woff/Vitesse-Light.woff’) format(‘woff’);
+src:url(‘../font/Vitesse-Light.otf’) format(‘truetype’),
+
 font-weight:normal;
 font-style:normal;
 }
 @font-face {
 font-family:Vitesse-Book;
-src:url(‘../fonts/tff/Vitesse-Book.ttf’) format(‘truetype’),
-url(‘../fonts/eot/Vitesse-Book.eot#iefix’) format(’embedded-opentype’),
-url(‘../fonts/woff/Vitesse-Book.woff’) format(‘woff’);
+src:url(‘../font/Vitesse-Book.otf’) format(‘truetype’),
+
 font-weight:normal;
 font-style:normal;
 }
 @font-face {
 font-family:Tungsten;
-src:url(‘../fonts/tff/Tungsten-Semibold.ttf’) format(‘truetype’),
-url(‘../fonts/eot/VTungsten-Semibold.eot#iefix’) format(’embedded-opentype’),
-url(‘../fonts/woff/Tungsten-Semibold.woff’) format(‘woff’);
+src:url(‘../font/Tungsten-Semibold.otf’) format(‘truetype’),
+
 font-weight:normal;
 font-style:normal;
 }
