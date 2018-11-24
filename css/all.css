@@ -3,33 +3,21 @@
     src: url(../font/Vitesse-Bold.otf) format("truetype");
 }
 @font-face {
-font-family:Futura;
-src:url(‘../fonts/FuturaStd-Medium.otf’) format(‘truetype’),
-font-weight:normal;
- font-style:normal;
+    font-family: "vitesse-book";
+    src: url(../font/Vitesse-Book.otf) format("truetype");
 }
 @font-face {
-font-family:Vitesse-Light;
-src:url(‘../font/Vitesse-Light.otf’) format(‘truetype’),
-
-font-weight:normal;
-font-style:normal;
+    font-family: "vitesse-light";
+    src: url(../font/Vitesse-Light.otf) format("truetype");
 }
 @font-face {
-font-family:Vitesse-Book;
-src:url(‘../font/Vitesse-Book.otf’) format(‘truetype’),
-
-font-weight:normal;
-font-style:normal;
+    font-family: "futura";
+    src: url(../font/Vitesse-FuturaStd-Medium.otf) format("truetype");
 }
 @font-face {
-font-family:Tungsten;
-src:url(‘../font/Tungsten-Semibold.otf’) format(‘truetype’),
-
-font-weight:normal;
-font-style:normal;
+    font-family: "tungsten";
+    src: url(../font/Tungsten-Semibold.otf) format("truetype");
 }
-
 img {
   max-width: 100%;
   height: auto;
