@@ -1,39 +1,39 @@
 @font-face {
 font-family:Futura;
-src:url(‘../tff/fonts/FuturaStd-Medium.ttf’) format(‘truetype’),
-url(‘../fonts/oet/FuturaStd-Medium.eot#iefix’) format(’embedded-opentype’),
+src:url(‘../fonts/tff/FuturaStd-Medium.ttf’) format(‘truetype’),
+url(‘../fonts/eot/FuturaStd-Medium.eot#iefix’) format(’embedded-opentype’),
 url(‘../fonts/woff/FuturaStd-Medium.woff’) format(‘woff’);
 font-weight:normal;
  font-style:normal;
 }
 @font-face {
 font-family:Vitesse-Bold;
-src:url(‘../tff/fonts/Vitesse-Bold.ttf’) format(‘truetype’),
-url(‘../fonts/oet/Vitesse-Bold.eot#iefix’) format(’embedded-opentype’),
+src:url(‘../fonts/tff/Vitesse-Bold.ttf’) format(‘truetype’),
+url(‘../fonts/eot/Vitesse-Bold.eot#iefix’) format(’embedded-opentype’),
 url(‘../fonts/woff/Vitesse-Bold.woff’) format(‘woff’);
 font-weight:normal;
  font-style:normal;
 }
 @font-face {
 font-family:Vitesse-Light;
-src:url(‘../tff/fonts/Vitesse-Light.ttf’) format(‘truetype’),
-url(‘../fonts/oet/Vitesse-Light.eot#iefix’) format(’embedded-opentype’),
+src:url(‘../fonts/tff/Vitesse-Light.ttf’) format(‘truetype’),
+url(‘../fonts/eot/Vitesse-Light.eot#iefix’) format(’embedded-opentype’),
 url(‘../fonts/woff/Vitesse-Light.woff’) format(‘woff’);
 font-weight:normal;
 font-style:normal;
 }
 @font-face {
 font-family:Vitesse-Book;
-src:url(‘../tff/fonts/Vitesse-Book.ttf’) format(‘truetype’),
-url(‘../fonts/oet/Vitesse-Book.eot#iefix’) format(’embedded-opentype’),
+src:url(‘../fonts/tff/Vitesse-Book.ttf’) format(‘truetype’),
+url(‘../fonts/eot/Vitesse-Book.eot#iefix’) format(’embedded-opentype’),
 url(‘../fonts/woff/Vitesse-Book.woff’) format(‘woff’);
 font-weight:normal;
 font-style:normal;
 }
 @font-face {
 font-family:Tungsten;
-src:url(‘../tff/fonts/Tungsten-Semibold.ttf’) format(‘truetype’),
-url(‘../fonts/oet/VTungsten-Semibold.eot#iefix’) format(’embedded-opentype’),
+src:url(‘../fonts/tff/Tungsten-Semibold.ttf’) format(‘truetype’),
+url(‘../fonts/eot/VTungsten-Semibold.eot#iefix’) format(’embedded-opentype’),
 url(‘../fonts/woff/Tungsten-Semibold.woff’) format(‘woff’);
 font-weight:normal;
 font-style:normal;
@@ -51,7 +51,7 @@ img {
 .uk-nav,.uk-nav ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none;x
 }
 
 .uk-nav li>a {
